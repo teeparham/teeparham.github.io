@@ -1,4 +1,2 @@
-teeparham.github.io
-===================
+[teeparham.github.io](http://teeparham.github.io)
 
-Tee Parham

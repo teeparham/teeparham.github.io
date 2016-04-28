@@ -55,7 +55,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   color: #cb4b16;
   font-size: 40px;
-  font-weight: 700; }
+  font-weight: 700;
+  letter-spacing: -2px; }
 
 h2 {
   color: #839496;
@@ -76,7 +77,7 @@ h6 {
   font-size: 16px; }
 
 p {
-  margin: 10px 0 10px 0; }
+  margin: 10px 0; }
 
 footer a, p {
   color: #586e75;
@@ -156,43 +157,13 @@ ol {
   list-style: decimal inside;
   padding-left: 20px; }
 
-dl dt {
-  font-weight: bold; }
-
-dl dd {
-  padding-left: 20px;
-  font-style: italic; }
-
-dl p {
-  padding-left: 20px;
-  font-style: italic; }
-
 hr {
   height: 1px;
   margin-bottom: 5px;
   border: none; }
 
-table {
-  border: 1px solid #373737;
-  margin-bottom: 20px;
-  text-align: left; }
-
-th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 10px;
-  background: #373737;
-  color: #fff; }
-
-td {
-  padding: 10px;
-  border: 1px solid #373737; }
-
-form {
-  background: #f2f2f2;
-  padding: 20px; }
-
 /*******************************************************************************
-Full-Width Styles
+Full-Width
 *******************************************************************************/
 .outer {
   width: 100%; }
@@ -203,7 +174,7 @@ Full-Width Styles
   padding: 20px 15px;
   margin: 0 auto; }
 
-.forkme_banner {
+.forkme-banner {
   display: block;
   position: absolute;
   top: 0;
@@ -217,25 +188,25 @@ Full-Width Styles
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px; }
 
-.header_wrap .inner {
+.header-wrap .inner {
   padding: 50px 15px 20px 15px; }
 
-.main_content_wrap {
+.main-content-wrap {
   background: #002b36;
   border-top: 1px solid #002b36;
   border-bottom: 1px solid #002b36; }
 
-.main_content {
+.main-content {
   padding-top: 40px; }
 
-.footer_wrap {
+.footer-wrap {
   background: #eee8d5; }
 
 .space {
   height: 30px; }
 
 /*******************************************************************************
-Small Device Styles
+Small
 *******************************************************************************/
 @media screen and (max-width: 480px) {
   body {
@@ -252,13 +223,4 @@ Small Device Styles
     font-size: 18px; }
 
   h3 {
-    font-size: 21px; }
-
-  h4 {
-    font-size: 18px; }
-
-  h5 {
-    font-size: 14px; }
-
-  h6 {
-    font-size: 12px; } }
+    font-size: 21px; } }

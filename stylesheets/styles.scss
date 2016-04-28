@@ -86,6 +86,7 @@ h1 {
   color: $orange;
   font-size: 40px;
   font-weight: 700;
+  letter-spacing: -2px;
 }
 
 h2 {
@@ -112,7 +113,7 @@ h6 {
 }
 
 p {
-  margin: 10px 0 10px 0;
+  margin: 10px 0;
 }
 
 footer a, p {
@@ -211,51 +212,14 @@ ol {
   padding-left: 20px;
 }
 
-dl dt {
-  font-weight: bold;
-}
-
-dl dd {
-  padding-left: 20px;
-  font-style: italic;
-}
-
-dl p {
-  padding-left: 20px;
-  font-style: italic;
-}
-
 hr {
   height: 1px;
   margin-bottom: 5px;
   border: none;
 }
 
-table {
-  border: 1px solid #373737;
-  margin-bottom: 20px;
-  text-align: left;
- }
-
-th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 10px;
-  background: #373737;
-  color: #fff;
- }
-
-td {
-  padding: 10px;
-  border: 1px solid #373737;
- }
-
-form {
-  background: #f2f2f2;
-  padding: 20px;
-}
-
 /*******************************************************************************
-Full-Width Styles
+Full-Width
 *******************************************************************************/
 
 .outer {
@@ -269,7 +233,7 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-.forkme_banner {
+.forkme-banner {
   display: block;
   position: absolute;
   top:0;
@@ -285,21 +249,21 @@ Full-Width Styles
 
 }
 
-.header_wrap .inner {
+.header-wrap .inner {
   padding: 50px 15px 20px 15px;
 }
 
-.main_content_wrap {
+.main-content-wrap {
   background: $dark;
   border-top: 1px solid $dark;
   border-bottom: 1px solid $dark;
 }
 
-.main_content {
+.main-content {
   padding-top: 40px;
 }
 
-.footer_wrap {
+.footer-wrap {
   background: $base2;
 }
 
@@ -308,7 +272,7 @@ Full-Width Styles
 }
 
 /*******************************************************************************
-Small Device Styles
+Small
 *******************************************************************************/
 
 @media screen and (max-width: 480px) {
@@ -331,17 +295,5 @@ Small Device Styles
 
   h3 {
     font-size: 21px;
-  }
-
-  h4 {
-    font-size: 18px;
-  }
-
-  h5 {
-    font-size: 14px;
-  }
-
-  h6 {
-    font-size: 12px;
   }
 }

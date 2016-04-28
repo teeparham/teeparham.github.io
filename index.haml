@@ -17,29 +17,48 @@
           code writer, product & engineering lead at Neighborland.
     .main-content-wrap.outer
       %section.main-content.inner
-        %h3 Open Source Projects
+        %h3 I'm on the internet
+        .pile
+          %a{href: "https://github.com/teeparham/gemdiff", class: "icon-github"}
+          %a{href: "https://www.linkedin.com/in/teeparham", class: "icon-linkedin"}
+          %a{href: "https://twitter.com/teeparham", class: "icon-twitter"}
+          %a{href: "http://stackoverflow.com/users/162934/tee", class: "icon-stackoverflow"}
+      %section.main-content.inner
+        %h3 I contribute to open source software
         %ul
           %li
             %a{href: "https://github.com/teeparham/gemdiff"} gemdiff
-            Compare source code changes in gem versions
+            is a command-line tool to find source code for ruby gems.
+            You can compare source code differences between the current version of a gem
+            in your bundle and the latest version of the gem. gemdiff connects
+            gem version management (rubygems + bundler) with source code (GitHub).
           %li
-            %a{href: "https://github.com/neighborland/cache_rocket"} cache_rocket
-            Better Rails HTML Fragment caching
-          %li
-            %a{href: "https://github.com/neighborland/pres"} pres
-            Simple Rails presenters
-          %li
-            %a{href: "https://github.com/neighborland/sluggi"} sluggi
-            Simple ActiveRecord slugs
-          %li
-            %a{href: "https://github.com/neighborland/scopy"} scopy
-            Common ActiveRecord model scopes
-          %li
-            %a{href: "https://github.com/neighborland/resque_solo"} resque_solo
-            Unique jobs in Resque
+            %a{href: "https://github.com/rgeo/rgeo"} rgeo
+            is a geospatial data library for ruby. It wraps the GEOS and Proj C libraries
+            and provides spatial types such as point, linestring, and polygon. 
           %li
             %a{href: "https://github.com/rgeo/activerecord-postgis-adapter"} activerecord-postgis-adapter
-            PostGIS ActiveRecord Adapter
+            is the PostGIS ActiveRecord adapter. Use it to connect ActiveRecord models
+            to your PostGIS database, with all the geometry type methods from rgeo.
+          %li
+            %a{href: "https://github.com/neighborland/cache_rocket"} cache_rocket
+            improves fragment caching efficiency in Rails. CacheRocket allows caching
+            more generic html fragments and allowing the contents of the cached fragments to be replaced with dynamic content.
+          %li
+            %a{href: "https://github.com/neighborland/pres"} pres
+            provides simple Rails presenter modules and classes.
+          %li
+            %a{href: "https://github.com/neighborland/sluggi"} sluggi
+            is a friendly_id-inspired slugging library for ActiveRecord models.
+            Use it to build nice-looking URLs. It provides basic slugs, slug history,
+            and the ability to define multiple slug candidates.
+          %li
+            %a{href: "https://github.com/neighborland/scopy"} scopy
+            provides common ActiveRecord model scopes for common columns including
+            id, created_at, and name.
+          %li
+            %a{href: "https://github.com/neighborland/resque_solo"} resque_solo
+            ensures unique jobs in Resque.
           %li
             %a{href: "https://github.com/rgeo/rgeo-activerecord"} rgeo-activerecord
             RGeo ActiveRecord extensions

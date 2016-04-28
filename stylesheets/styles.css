@@ -60,7 +60,7 @@ h1 {
 h2 {
   color: #839496;
   padding-bottom: 12px;
-  font-size: 32px; }
+  font-size: 20px; }
 
 h3 {
   color: #fdf6e3;
@@ -231,6 +231,9 @@ Full-Width Styles
 .footer_wrap {
   background: #eee8d5; }
 
+.space {
+  height: 30px; }
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
@@ -246,7 +249,7 @@ Small Device Styles
     font-size: 28px; }
 
   h2 {
-    font-size: 24px; }
+    font-size: 18px; }
 
   h3 {
     font-size: 21px; }

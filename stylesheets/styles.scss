@@ -91,7 +91,7 @@ h1 {
 h2 {
   color: $base0;
   padding-bottom: 12px;
-  font-size: 32px;
+  font-size: 20px;
 }
 
 h3 {
@@ -285,9 +285,6 @@ Full-Width Styles
 
 }
 
-.header_wrap {
-}
-
 .header_wrap .inner {
   padding: 50px 15px 20px 15px;
 }
@@ -306,6 +303,9 @@ Full-Width Styles
   background: $base2;
 }
 
+.space {
+  height: 30px;
+}
 
 /*******************************************************************************
 Small Device Styles
@@ -326,7 +326,7 @@ Small Device Styles
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   h3 {

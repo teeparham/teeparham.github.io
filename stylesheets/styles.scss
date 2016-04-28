@@ -63,7 +63,7 @@ $light: $base2;
 $mid: $base01;
 
 /*******************************************************************************
-Theme Styles
+Styles
 *******************************************************************************/
 
 body {
@@ -218,6 +218,13 @@ hr {
   border: none;
 }
 
+// aka clearfix
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*******************************************************************************
 Full-Width
 *******************************************************************************/
@@ -231,22 +238,6 @@ Full-Width
   max-width: 640px;
   padding: 20px 15px;
   margin: 0 auto;
-}
-
-.forkme-banner {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 15px;
-  z-index: 10;
-  padding: 10px 20px 6px 10px;
-  color: $base3;
-  background-color: $base1;
-  font-size: 14px;
-  font-weight: 600;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-
 }
 
 .header-wrap .inner {
@@ -276,24 +267,11 @@ Small
 *******************************************************************************/
 
 @media screen and (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
-
   .inner {
     min-width: 320px;
     max-width: 480px;
   }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  h3 {
-    font-size: 21px;
+  .box {
+    width: 100%;
   }
 }

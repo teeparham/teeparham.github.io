@@ -160,15 +160,6 @@ img {
   margin: 0 auto;
 }
 
-img.github-logo {
-  height: 26px;
-}
-
-.pbs {
-  float: left;
-  padding: 2px 12px 0 6px;
-}
-
 p img {
   display: inline;
   margin: 0;
@@ -178,19 +169,6 @@ p img {
   border: none;
 }
 
-pre, code {
-  width: 100%;
-  color: #222;
-  background-color: #fff;
-
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 14px;
-
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-}
-
 blockquote {
   color: #666;
   margin-bottom: 20px;
@@ -198,17 +176,9 @@ blockquote {
   border-left: 3px solid #bbb;
 }
 
-ul, ol, dl {
-  margin-bottom: 15px
-}
-
 ul {
   list-style: inside;
-  padding-left: 20px;
-}
-
-ol {
-  list-style: decimal inside;
+  margin-bottom: 15px;
   padding-left: 20px;
 }
 

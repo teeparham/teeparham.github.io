@@ -2,7 +2,7 @@
 %html
   %head
     %meta{charset: "utf-8"}
-    %meta{content: "chrome=1", "http-equiv" => "X-UA-Compatible"}
+    %meta{content: "chrome=1", "http-equiv": "X-UA-Compatible"}
     %meta{content: "Tee Parham", name: "description"}
     %link{href: "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800", rel: "stylesheet"}
     %link{href: "stylesheets/styles.css", media: "screen", rel: "stylesheet", type: "text/css"}
@@ -23,6 +23,8 @@
             I founded
             %a{href: "https://neighborland.com/"} Neighborland
             to empower people to shape the development of their neighborhoods.
+            We have worked with hundreds of civic organizations in the United States,
+            including city agencies, universities, foundations, and local non-profits.
           %li
             I help
             %a{href: "https://designerfund.com/"} Designer Fund
@@ -35,7 +37,7 @@
           %li
             I developed an ERP system for
             %a{href: "https://www.nesterhosiery.com/"} Nester Hosiery
-            so they could make the world's best wool socks more efficiently. P.S. you should
+            so they could make the world's best wool socks more efficiently. You should
             = succeed "." do
               %a{href: "https://www.farmtofeet.com/"} buy some socks
       %section.main-content.inner
@@ -63,6 +65,9 @@
             is the PostGIS ActiveRecord adapter. Use it to connect ActiveRecord models
             to your PostGIS database, with all the geometry type methods from rgeo.
           %li
+            %a{href: "https://github.com/haml/haml"} haml
+            is the HTML Abstraction Markup Language.
+          %li
             %a{href: "https://github.com/neighborland/cache_rocket"} cache_rocket
             improves fragment caching efficiency in Rails. CacheRocket allows caching
             more generic html fragments and allowing the contents of the cached fragments to be replaced with dynamic content.
@@ -85,31 +90,31 @@
             %a{href: "https://github.com/neighborland/anchored"} anchored
             auto-links URLs in HTML text using ruby.
           %li
+            %a{href: "https://github.com/rgeo/rgeo-geojson"} rgeo-geojson
+            provides GeoJSON serialization support to RGeo objects.
+          %li
             %a{href: "https://github.com/rgeo/rgeo-activerecord"} rgeo-activerecord
             provides RGeo ActiveRecord extensions, used by the PostGIS, MySql, and
             Spatialite database adapters.
-          %li
-            %a{href: "https://github.com/haml/haml"} haml
-            is the HTML Abstraction Markup Language.
           %li
             %a{href: "https://github.com/teeparham/paperclip-meta"} paperclip-meta
             adds image sizes to Paperclip attachments.
           %li
             %a{href: "https://github.com/teeparham/phonely_feud"} phonely_feud
-            is a weekend prototype I hacked together for the first National Day
+            is a weekend prototype I built for the first National Day
             of Civic Hacking. It allows the anyone to lookup a suspicious phone
             number and answer "Is this phone number a scam?"
           %li
-            %a{href: "https://github.com/teeparham/cache_benchmark"} cache_benchmark
-            benchmarks different Rails caching techniques.
-          %li
-            %a{href: "https://github.com/neighborland/mobu"} mobu
-            detects device types based on the user-agent, and modifies Rails view paths
-            based on the device type. This project is no longer maintained and
-            you should not modify content based on the user agent if you can help it.
-          %li
             %a{href: "https://github.com/teeparham/loady"} loady
             does delimited file loading and logging in ruby.
+      %section.main-content.inner
+        %h3 Be a winner
+        %ul
+          %li
+            I built a website of the classic Mastermind board game.
+            %a{href: "https://teeparham.github.io/mastermind"} Play it
+        %a{href: "https://teeparham.github.io/mastermind"}
+          %img{src: "images/mastermind.png", style: "width: 100%; max-width: 360px;"}
         .space
     .footer-wrap.outer
       %footer.inner

@@ -38,29 +38,14 @@ table {
 }
 
 /*******************************************************************************
-Colors - http://ethanschoonover.com/solarized
+Colors - https://tachyons.io
 *******************************************************************************/
 
-$base03:    #002b36;
-$base02:    #073642;
-$base01:    #586e75;
-$base00:    #657b83;
-$base0:     #839496;
-$base1:     #93a1a1;
-$base2:     #eee8d5;
-$base3:     #fdf6e3;
-$yellow:    #b58900;
-$orange:    #cb4b16;
-$red:       #dc322f;
-$magenta:   #d33682;
-$violet:    #6c71c4;
-$blue:      #268bd2;
-$cyan:      #2aa198;
-$green:     #859900;
-
-$dark: $base03;
-$light: $base2;
-$mid: $base01;
+$light: #f4f4f4;
+$gray: #eeeeee;
+$blue: #357edd;
+$black: #333333;
+$green: #137752;
 
 /*******************************************************************************
 Font Icons from fontello.com
@@ -98,49 +83,35 @@ Styles
 
 body {
   box-sizing: border-box;
-  color: $base1;
+  color: $black;
   background-color: $light;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
+h1, h2, h3 {
+  margin: 12px 0;
   font-weight: 600;
+  line-height: 1.4;
 }
 
 h1 {
-  color: $orange;
-  font-size: 40px;
+  font-size: 3rem;
   font-weight: 700;
   letter-spacing: -2px;
 }
 
 h2 {
-  color: $base0;
+  font-size: 1.25rem;
   padding-bottom: 12px;
-  font-size: 20px;
   letter-spacing: -1px;
 }
 
 h3 {
-  color: $base3;
-  font-size: 24px;
-}
-
-h4 {
-  font-size: 21px;
-}
-
-h5 {
-  font-size: 18px;
-}
-
-h6 {
-  font-size: 16px;
+  font-size: 2rem;
 }
 
 p {
@@ -148,17 +119,16 @@ p {
 }
 
 footer a, p {
-  color: $base01;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 a {
   text-decoration: none;
-  color: $cyan;
+  color: $green;
   text-shadow: none;
   font-weight: 500;
   &:hover, &:focus {
-    color: $yellow;
+    color: $blue;
     text-decoration: underline;
   }
   &:focus {
@@ -168,9 +138,6 @@ a {
 
 footer a {
   text-decoration: underline;
-  &:hover, &:focus {
-    color: $cyan;
-  }
 }
 
 em {
@@ -195,13 +162,6 @@ p img {
   border: none;
 }
 
-blockquote {
-  color: #666;
-  margin-bottom: 20px;
-  padding: 0 0 0 20px;
-  border-left: 3px solid #bbb;
-}
-
 ul {
   list-style: inside;
   list-style-type: none;
@@ -209,7 +169,6 @@ ul {
 }
 
 li {
-  font-size: 20px;
   line-height: 1.4;
   margin-bottom: 15px;
   a {
@@ -225,13 +184,7 @@ hr {
 }
 
 .pile {
-  font-size: 4em;
-  a {
-    color: $blue;
-    &:hover {
-      color: $yellow;
-    }
-  }
+  font-size: 4rem;
 }
 
 // aka clearfix
@@ -257,17 +210,13 @@ hr {
 }
 
 .main-content-wrap {
-  background: $dark;
-  border-top: 1px solid $dark;
-  border-bottom: 1px solid $dark;
+  background: $gray;
+  border-top: 1px solid $gray;
+  border-bottom: 1px solid $gray;
 }
 
 .main-content {
   padding-top: 20px;
-}
-
-.footer-wrap {
-  background: $base2;
 }
 
 .space {

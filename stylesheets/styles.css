@@ -34,7 +34,7 @@ table {
   border-spacing: 0; }
 
 /*******************************************************************************
-Colors - http://ethanschoonover.com/solarized
+Colors - https://tachyons.io
 *******************************************************************************/
 /*******************************************************************************
 Font Icons from fontello.com
@@ -77,65 +77,51 @@ Styles
 *******************************************************************************/
 body {
   box-sizing: border-box;
-  color: #93a1a1;
-  background-color: #eee8d5;
-  font-size: 16px;
+  color: #333333;
+  background-color: #f4f4f4;
+  font-size: 18px;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased; }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
-  font-weight: 600; }
+h1, h2, h3 {
+  margin: 12px 0;
+  font-weight: 600;
+  line-height: 1.4; }
 
 h1 {
-  color: #cb4b16;
-  font-size: 40px;
+  font-size: 3rem;
   font-weight: 700;
   letter-spacing: -2px; }
 
 h2 {
-  color: #839496;
+  font-size: 1.25rem;
   padding-bottom: 12px;
-  font-size: 20px;
   letter-spacing: -1px; }
 
 h3 {
-  color: #fdf6e3;
-  font-size: 24px; }
-
-h4 {
-  font-size: 21px; }
-
-h5 {
-  font-size: 18px; }
-
-h6 {
-  font-size: 16px; }
+  font-size: 2rem; }
 
 p {
   margin: 10px 0; }
 
 footer a, p {
-  color: #586e75;
-  font-size: 14px; }
+  font-size: 0.875rem; }
 
 a {
   text-decoration: none;
-  color: #2aa198;
+  color: #137752;
   text-shadow: none;
   font-weight: 500; }
   a:hover, a:focus {
-    color: #b58900;
+    color: #357edd;
     text-decoration: underline; }
   a:focus {
     outline: none; }
 
 footer a {
   text-decoration: underline; }
-  footer a:hover, footer a:focus {
-    color: #2aa198; }
 
 em {
   font-style: italic; }
@@ -155,19 +141,12 @@ p img {
   text-align: center;
   border: none; }
 
-blockquote {
-  color: #666;
-  margin-bottom: 20px;
-  padding: 0 0 0 20px;
-  border-left: 3px solid #bbb; }
-
 ul {
   list-style: inside;
   list-style-type: none;
   margin-bottom: 15px; }
 
 li {
-  font-size: 20px;
   line-height: 1.4;
   margin-bottom: 15px; }
   li a {
@@ -180,11 +159,7 @@ hr {
   border: none; }
 
 .pile {
-  font-size: 4em; }
-  .pile a {
-    color: #268bd2; }
-    .pile a:hover {
-      color: #b58900; }
+  font-size: 4rem; }
 
 .group:after {
   content: "";
@@ -204,15 +179,12 @@ hr {
   padding: 50px 15px 20px 15px; }
 
 .main-content-wrap {
-  background: #002b36;
-  border-top: 1px solid #002b36;
-  border-bottom: 1px solid #002b36; }
+  background: #eeeeee;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee; }
 
 .main-content {
   padding-top: 20px; }
-
-.footer-wrap {
-  background: #eee8d5; }
 
 .space {
   height: 20px; }

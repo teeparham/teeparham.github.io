@@ -1,3 +1,3 @@
 #!/bin/sh
 sass --watch stylesheets/styles.scss:stylesheets/styles.css --sourcemap=none &
-watch haml index.haml index.html
+while :; do haml render index.haml > index.html; sleep 2; done

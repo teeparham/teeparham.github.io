@@ -1,5 +1,1 @@
-[teeparham.github.io](http://teeparham.github.io)
-
-```
-source watchit.sh
-```
+Archived. See https://github.com/teeparham/next
